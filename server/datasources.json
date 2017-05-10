@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "filmDS": {
+    "url": "postgres://dwqsitjlprrwoi:32cede0f56c315a12e546eaa62f0b9c00dcd761ea15ad0157fb6c07ee54c8dea@ec2-54-83-205-71.compute-1.amazonaws.com:5432/d2c8hshog39of2?ssl=true",
+    "name": "filmDS",
+    "connector": "postgresql"
+  }
+}
