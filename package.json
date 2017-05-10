@@ -32,5 +32,13 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "lb-mysql"
+  "description": "lb-mysql",
+  "bin": {
+    "lb-mysql": "auto-migrate.js"
+  },
+  "author": "hieukendy",
+  "keywords": [
+    "hieukendy",
+    "loopback"
+  ]
 }
