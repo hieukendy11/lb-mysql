@@ -10,11 +10,23 @@
       "type": "string",
       "required": true
     },
-    "desciption": {
+	"subtitle": {
       "type": "string"
     },
-    "url": {
+    "infor": {
       "type": "string"
+    },
+    "videolink": {
+      "type": "string"
+    },
+	"imagelink": {
+      "type": "string"
+    },
+	"view": {
+      "type": "number"
+    },
+	"rate": {
+      "type": "number"
     },
     "categoryId": {
       "type": "number",

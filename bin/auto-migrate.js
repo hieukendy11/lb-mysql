@@ -40,11 +40,21 @@ ds.automigrate('category', function(err) {
 
   var categorys = [
     {
-	  name : 'category 111'
+	  name : 'Tình Cảm',
+	  desciption : 'Phim tình cảm'
       
     },
     {
-	  name : 'category 2222'
+	  name : 'Hành Động',
+	  desciption : 'Phim hành động'
+    },
+	{
+	  name : 'Võ Thuật',
+	  desciption : 'Phim võ thuật'
+    },
+	{
+	  name : 'Kiếm Hiệp',
+	  desciption : 'Phim Kiếm hiệp'
     },
   ];
   var count = categorys.length;
@@ -66,16 +76,24 @@ ds.automigrate('film', function(err) {
 
   var films = [
     {
-		title : 'film 1',
-		desciption : "desciption 1111",
-		url : "url 111",
+		title: 'Dặc vụ SHIELD 4',
+		subtitle: 'Agents of SHIELD Session 4',
+		infor: 'Thông tin fiml',
+		videolink: "http://aaaaa",
+		imagelink: "http://aaaaa",
+		view: 1000,
+		rate : 8,
 		categoryId : 1
     },
     {
-		title : 'film 2',
-		desciption : "desciption 2222",
-		url : "url 222",
-		categoryId : 2
+		title: 'Mũi Tên Xanh 5',
+		subtitle: 'Arrow Session 5',
+		infor: 'Thông tin fiml',
+		videolink: "http://aaaaa",
+		imagelink: "http://aaaaa",
+		view: 1000,
+		rate : 9,
+		categoryId : 1
     },
   ];
   var count = films.length;
